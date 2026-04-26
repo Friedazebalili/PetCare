@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Paws & Hearts | Immersive Pet Care</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        mint: '#a8e6cf',
+                        'sky-blue': '#dcedc1',
+                        beige: '#fdfbf7',
+                        coral: '#ff8b94',
+                        'text-main': '#2c3e50',
+                        'text-light': '#7f8c8d',
+                    }
+                }
+            }
+        }
+    </script>
+
     <script src="https://unpkg.com/lucide@latest"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -173,8 +191,8 @@
             <div class="hero-anim relative h-[500px] lg:h-[650px] w-full flex justify-center items-center">
                 <div class="absolute w-[80%] h-[80%] bg-white/40 backdrop-blur-md rounded-full -z-10 animate-[spin_20s_linear_infinite] border-2 border-dashed border-mint/50"></div>
                 
-                <img src="https://github.com/Friedazebalili/Roofing-Service/blob/bdca31634392ee81e17a41e9f817a1fd57df1fdf/images/vet.png" 
-                     alt="Vet hugging a golden retriever" 
+                <img src="https://raw.githubusercontent.com/Friedazebalili/Roofing-Service/bdca31634392ee81e17a41e9f817a1fd57df1fdf/images/vet.png" 
+                     alt="Vet with pet" 
                      class="w-[90%] h-[90%] object-cover rounded-[3rem] shadow-2xl border-8 border-white/50 rotate-3 hover:rotate-0 transition-transform duration-700 organic-mask">
                      
                 <div class="absolute bottom-10 left-0 glass p-4 rounded-2xl flex items-center gap-4 animate-[bounce_4s_infinite_ease-in-out]">
@@ -295,7 +313,7 @@
                 </div>
 
                 <div class="relative group overflow-hidden rounded-3xl aspect-square scroll-up" style="transition-delay: 200ms;">
-                    <img src="https://github.com/Friedazebalili/Roofing-Service/blob/95d4ea915ba8153f545db40ddb4d56b9f40484c9/images/maxx.png" alt="Dog">
+                    <img src="https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Dog">
                     <div class="absolute inset-0 bg-sky-blue/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center backdrop-blur-sm">
                         <p class="text-text-main font-bold text-xl drop-shadow-md">Max 🐾</p>
                     </div>
